@@ -1,0 +1,324 @@
+{
+  "schema": "trace-export-v1",
+  "gerado_utc": "2026-11-20T18:02:47.471710+00:00",
+  "origem": "Motor Python TRACE — Google Colab",
+  "dados": "Sintéticos",
+  "aviso": "Resultados de investigação. Não usar em decisões financeiras reais.",
+  "cases": [
+    {
+      "id": "TR-0000",
+      "name": "Caso 0",
+      "amount": "16 040 €",
+      "months": 48,
+      "score": 50.0,
+      "decision": "Incumprimento",
+      "status": "warn",
+      "risk": "Moderado",
+      "items": [
+        [
+          "Idade",
+          0.0014,
+          "negative"
+        ],
+        [
+          "Montante solicitado",
+          0.0243,
+          "negative"
+        ],
+        [
+          "Duração do empréstimo",
+          0.1792,
+          "negative"
+        ],
+        [
+          "Histórico de incumprimento",
+          -0.546,
+          "positive"
+        ],
+        [
+          "Poupança disponível",
+          -0.0506,
+          "positive"
+        ],
+        [
+          "Estabilidade laboral",
+          1.0983,
+          "negative"
+        ]
+      ],
+      "trace": {
+        "classe_positiva": "Incumprimento",
+        "intercepto": -0.7054098640916491,
+        "log_odds": 0.001202988629170898,
+        "stl_pesos": {
+          "Pressão financeira": 28.7,
+          "Exposição temporal": 10.7,
+          "Proteção financeira": 2.7,
+          "Estabilidade contextual": 57.8,
+          "Outras variáveis": 0.1
+        },
+        "stl_cor": "#ABA3BE"
+      },
+      "input": {
+        "Idade": "42",
+        "Montante solicitado": "16040",
+        "Duração do empréstimo": "48",
+        "Histórico de incumprimento": "0",
+        "Poupança disponível": "6320.0",
+        "Estabilidade laboral": "Temporário"
+      }
+    },
+    {
+      "id": "TR-0025",
+      "name": "Caso 25",
+      "amount": "3 313 €",
+      "months": 12,
+      "score": 4.4,
+      "decision": "Cumprimento",
+      "status": "ok",
+      "risk": "Baixo",
+      "items": [
+        [
+          "Idade",
+          -0.0277,
+          "positive"
+        ],
+        [
+          "Montante solicitado",
+          -0.6455,
+          "positive"
+        ],
+        [
+          "Duração do empréstimo",
+          -0.3935,
+          "positive"
+        ],
+        [
+          "Histórico de incumprimento",
+          -0.546,
+          "positive"
+        ],
+        [
+          "Poupança disponível",
+          0.2132,
+          "negative"
+        ],
+        [
+          "Estabilidade laboral",
+          -0.9628,
+          "positive"
+        ]
+      ],
+      "trace": {
+        "classe_positiva": "Incumprimento",
+        "intercepto": -0.7054098640916491,
+        "log_odds": -3.0678175879322644,
+        "stl_pesos": {
+          "Pressão financeira": 19.6,
+          "Exposição temporal": 37.3,
+          "Proteção financeira": 7.6,
+          "Estabilidade contextual": 34.5,
+          "Outras variáveis": 1.0
+        },
+        "stl_cor": "#BEACAD"
+      },
+      "input": {
+        "Idade": "57",
+        "Montante solicitado": "3313",
+        "Duração do empréstimo": "12",
+        "Histórico de incumprimento": "0",
+        "Poupança disponível": "2308.0",
+        "Estabilidade laboral": "Estável"
+      }
+    },
+    {
+      "id": "TR-0050",
+      "name": "Caso 50",
+      "amount": "12 384 €",
+      "months": 36,
+      "score": 29.8,
+      "decision": "Cumprimento",
+      "status": "ok",
+      "risk": "Baixo",
+      "items": [
+        [
+          "Idade",
+          -0.0239,
+          "positive"
+        ],
+        [
+          "Montante solicitado",
+          -0.1681,
+          "positive"
+        ],
+        [
+          "Duração do empréstimo",
+          -0.0117,
+          "positive"
+        ],
+        [
+          "Histórico de incumprimento",
+          -0.546,
+          "positive"
+        ],
+        [
+          "Poupança disponível",
+          -0.5016,
+          "positive"
+        ],
+        [
+          "Estabilidade laboral",
+          1.0983,
+          "negative"
+        ]
+      ],
+      "trace": {
+        "classe_positiva": "Incumprimento",
+        "intercepto": -0.7054098640916491,
+        "log_odds": -0.8584657433505924,
+        "stl_pesos": {
+          "Pressão financeira": 23.2,
+          "Exposição temporal": 7.7,
+          "Proteção financeira": 21.3,
+          "Estabilidade contextual": 46.7,
+          "Outras variáveis": 1.0
+        },
+        "stl_cor": "#A2ADC0"
+      },
+      "input": {
+        "Idade": "55",
+        "Montante solicitado": "12384",
+        "Duração do empréstimo": "36",
+        "Histórico de incumprimento": "0",
+        "Poupança disponível": "13181.0",
+        "Estabilidade laboral": "Temporário"
+      }
+    },
+    {
+      "id": "TR-0075",
+      "name": "Caso 75",
+      "amount": "6 452 €",
+      "months": 12,
+      "score": 3.5,
+      "decision": "Cumprimento",
+      "status": "ok",
+      "risk": "Baixo",
+      "items": [
+        [
+          "Idade",
+          -0.0394,
+          "positive"
+        ],
+        [
+          "Montante solicitado",
+          -0.4803,
+          "positive"
+        ],
+        [
+          "Duração do empréstimo",
+          -0.3935,
+          "positive"
+        ],
+        [
+          "Histórico de incumprimento",
+          -0.546,
+          "positive"
+        ],
+        [
+          "Poupança disponível",
+          -0.1955,
+          "positive"
+        ],
+        [
+          "Estabilidade laboral",
+          -0.9628,
+          "positive"
+        ]
+      ],
+      "trace": {
+        "classe_positiva": "Incumprimento",
+        "intercepto": -0.7054098640916491,
+        "log_odds": -3.323001361359367,
+        "stl_pesos": {
+          "Pressão financeira": 20.9,
+          "Exposição temporal": 33.4,
+          "Proteção financeira": 7.5,
+          "Estabilidade contextual": 36.8,
+          "Outras variáveis": 1.5
+        },
+        "stl_cor": "#BBABAF"
+      },
+      "input": {
+        "Idade": "63",
+        "Montante solicitado": "6452",
+        "Duração do empréstimo": "12",
+        "Histórico de incumprimento": "0",
+        "Poupança disponível": "8525.0",
+        "Estabilidade laboral": "Estável"
+      }
+    },
+    {
+      "id": "TR-0100",
+      "name": "Caso 100",
+      "amount": "17 429 €",
+      "months": 36,
+      "score": 10.4,
+      "decision": "Cumprimento",
+      "status": "ok",
+      "risk": "Baixo",
+      "items": [
+        [
+          "Idade",
+          0.0365,
+          "negative"
+        ],
+        [
+          "Montante solicitado",
+          0.0974,
+          "negative"
+        ],
+        [
+          "Duração do empréstimo",
+          -0.0117,
+          "positive"
+        ],
+        [
+          "Histórico de incumprimento",
+          -0.546,
+          "positive"
+        ],
+        [
+          "Poupança disponível",
+          -0.0667,
+          "positive"
+        ],
+        [
+          "Estabilidade laboral",
+          -0.9628,
+          "positive"
+        ]
+      ],
+      "trace": {
+        "classe_positiva": "Incumprimento",
+        "intercepto": -0.7054098640916491,
+        "log_odds": -2.1587285002666405,
+        "stl_pesos": {
+          "Pressão financeira": 31.7,
+          "Exposição temporal": 6.3,
+          "Proteção financeira": 3.9,
+          "Estabilidade contextual": 55.9,
+          "Outras variáveis": 2.1
+        },
+        "stl_cor": "#ABA3BE"
+      },
+      "input": {
+        "Idade": "24",
+        "Montante solicitado": "17429",
+        "Duração do empréstimo": "36",
+        "Histórico de incumprimento": "0",
+        "Poupança disponível": "6565.0",
+        "Estabilidade laboral": "Estável"
+      }
+    }
+  ]
+}
